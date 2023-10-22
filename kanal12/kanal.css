@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header1{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    
+}
+.icon{
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-flex;
+}
+.icons{
+    color: white;
+   font-size: 30px;
+    float: right;
+    margin-top: 28px;
+left: -28px;
+    position: relative;
+    display: inline-flex;
+    gap: 20px;
+}
+.icons :hover{
+    color: red;
+    transition: 2s;
+    scale:1.2;
+}
+i{
+    color: white;
+}
+.header2{
+    width: 100%;
+    height: 90px;
+    background-color: rgba(88, 17, 17);
+    color: white;
+    position: relative;
+    
+}
+.head a{
+    gap: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+   
+
+}
+.head{
+    
+    
+    gap: 30px;
+        margin-top: -68px;
+    display: inline-flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.head  a:hover{
+    transform: 0.8s;
+    color: orange;
+}
+.input {
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    background: none;
+    border: 4px solid #ffd52d;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+    font-size: 26px;
+    color: #ffd52d;
+    outline: none;
+    transition: .5s;
+}
+.box:hover input{
+    width: 350px;
+    background: #3b3640;
+    border-radius: 10px;
+}
+.box i{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translate(-50%,-50%);
+    font-size: 26px;
+    color: #ffd52d;
+    transition: .2s;
+}
+.arama{
+    float: right;
+    margin-top: -13px;
+}
+.filmler1 {
+    margin-top: 95px;
+    width: 100%;
+    height: 278px;
+    background-color: black;
+}
+img[alt="Diyar"]{
+    height: 268px;
+}
+.Filmler2{
+    margin-top: 103px;
+    width: 100%;
+    height: 269px;
+    background-color: black;
+}
+#bas{
+    color: black;
+    top: 82px;
+    position: relative;
+}
+.Filmler3{
+    margin-top: 97px;
+    width: 100%;
+    height: 269px;
+    background-color: black;
+}
+.marvelfilm{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 30px;
+    width: 84.4%;
+    height: auto;
+    background-color: black;
+    margin-left: 152px;
+}
+img[alt="Marvel"]{
+    height: 147px;
+}
+img[alt="Marvel2"]{
+    height: 147px;
+    width: 261px;
+   
+}
+img[alt="Marvel"]:hover{
+    scale: 1.2;
+    transition: 0.6s;
+}
+img[alt="Marvel2"]:hover{
+   transition: 0.6s;
+    scale: 1.2;
+}
+.hakkımızda{
+    align-items: center;
+    font-size: 25px;
+    display: inline-flex;
+    margin: 0px 830px;
+}
+h1{
+    color: white;
+}
+iframe{
+    
+    width: 98%;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.boxs{
+    display: flex;
+    width: 98%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    flex-direction: row;
+    padding: 10px;
+}
+.bilgiler{
+    width: 49%;
+    float: left;
+    height: 380px;
+    border: 3px solid black;
+    padding: 10px;
+    margin-right: 10px;
+}
+.ad{
+float: left;
+width: 30%;
+margin-top: 5px;
+}
+.boxt{
+    float: left;
+width: 70%;
+margin-top: 5px;
+position: relative;
+left: -187px;
+}
+input[type=text] , textarea{
+    
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 33px;
+}
+
+.bigi::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+input[type=submit]{
+    background-color: rgb(42, 125, 42);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+
+    float: right;
+    border-radius: 5px;
+}
+.adres{
+    width: 49%;
+    float: left;
+    height: 380px;
+    border: 3px solid black;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+}
+.span1{
+    display: block;
+    
+    margin: 10px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-size: 30px;
+
+}
+img[alt="Diyar"]:hover{
+    transition: 0,6s;
+scale: 1.2;
+   
+}
